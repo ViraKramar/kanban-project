@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Kanban project testing UI">
+
+    <test name="Smoke test run through UI">
+        <classes>
+            <class name="ui.tests.LoginTest"/>
+            <class name="ui.tests.CreateProjectTest"/>
+            <class name="ui.tests.CreateTaskTest"/>
+            <class name="ui.tests.CloseTaskTest"/>
+            <class name="ui.tests.CreateCommentTest"/>
+        </classes>
+    </test>
+
+</suite>

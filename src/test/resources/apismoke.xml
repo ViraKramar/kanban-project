@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Kanban project testing API">
+
+    <test name="Smoke test run through API">
+        <classes>
+            <class name="api.tests.UserTests"/>
+            <class name="api.tests.ProjectTests"/>
+        </classes>
+    </test>
+
+</suite>
